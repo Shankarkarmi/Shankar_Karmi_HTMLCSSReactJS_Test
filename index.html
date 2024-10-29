@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Community Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container flex ">
+            <div class="logo">.Logo</div>
+            <input type="checkbox" id="check" />
+            <label for="check" id="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><button class="login-btn secondary-btn">Login</button></li>
+                <li><button class="register-btn" onclick="scrollToSignup()" >Register</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+        
+        
+        <section class="hero  flex center">
+            <div class="hero-content ">
+                <h1>The largest community of photo enthusiasts</h1>
+            <button class="join-btn ">Join Today</button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1 -->
+        <section class="features  container">
+            <h2 >Snap photos and share like <br/> never before</h2>
+            <div class="features-content   ">
+                <div class="feature-cards">
+                    <div class="card">
+                        <h3>Sed ut perspiciatis</h3>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="feature-cards">
+                    <div class="card">
+                        <h3>Nemo enim ipsam</h3>
+                        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="card">
+                        <h3>Tempor incididunt</h3>
+                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="social-media-promo container">
+            <div class="head">
+                <h2>Have you ever posted any photo on social media?</h2>
+                <h2 class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h2>
+            </div>
+            <div class="media-content flex center">
+                <div class="text-content">
+                    <div class="text-block">
+                        <h3>Sed ut perspiciatis</h3>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Nemo enim ipsam</h3>
+                        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                    </div>
+                </div>
+                <div class="image-content"></div>
+            </div>
+        </section>
+        
+
+        <!-- Section 3 -->
+        <section class="photo-styles container ">
+            <div class="head">
+                <h2>Make your photos more stylish</h2>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            </div>
+            <div class="style-cards">
+                <div class="card">
+                    <div class="image1">
+                        
+                    </div>
+                    <div class="content">
+                        <h3>Sed ut perspiciatis</h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image2">
+                        
+                    </div>
+                    <div class="content">
+
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image3">
+                        
+                    </div>
+                    <div class="content">
+
+                        <h3>Nemo enim ipsam</h3>
+                        <p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Free Trial Section -->
+        <section id="sign-up" class="free-trial container">
+            <div class="head">
+                <h2>Ready to take a free trial?</h2>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <div id="signup-form">
+                
+                   
+                <form action="#">
+                    
+                    <h3 class="up">Sign up for a free account</h3>
+                    <div class="box flex ">
+                        <input type="text" id="first-name"  placeholder="First name" autocomplete="given-name" className="input-field">
+                    
+                    <input type="text" id="last-name" placeholder="Last name">
+                    </div>
+                    <div class="box flex">
+                        <input type="email" id="email" placeholder="Email address" autocomplete="email">
+                        <input type="tel" id="phone-number" placeholder="Phone Number" autocomplete="tel">
+                    </div>
+                    <input type="password" id="password" placeholder="Create password" autocomplete="new-password">
+                    <button class="submit" type="submit" >Register</button>
+                
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+   
+    <footer>
+        <div class=" flex footer-container center">
+            <a href="#" class="company-logo">
+                <h1>.Logo</h1>
+            </a>
+            <div class="footer-links flex">
+                <div class="link-column flex  ">
+                    <h4>Mobile app</h4>
+                    <a href="#" class="hover-link">Features</a>
+                    <a href="#" class="hover-link">Live Share</a>
+                    <a href="#" class="hover-link">Video record</a>
+                    
+                </div>
+                <div class="link-column flex ">
+                    <h4>Community</h4>
+                    <a href="#" class="hover-link">Featured artists</a>
+                    <a href="#" class="hover-link">The Portal</a>
+                    <a href="#" class="hover-link">Live events</a>
+                    
+                </div>
+                <div class="link-column flex ">
+                    <h4>Resources</h4>
+                    <a href="#" class="hover-link">About us</a>
+                    <a href="#" class="hover-link">Contact us</a>
+                    <a href="#" class="hover-link">History</a>
+                </div>
+                <div class="auth-buttons footer-auth ">
+                    <button class="register-btn"   onclick="scrollToSignup()"  >Register</button>
+                    <button class="login-btn secondary-btn">Login</button>
+                </div>
+            </div>
+        </div>
+        <hr class="container line">
+        
+        <div class="subfooter">
+            <div class="container subfooter-container">
+                <p>© Photo, Inc. 2019. We love our users!</p>
+                <div class="follow">
+                    <p>Follow us </p>
+                    <div class="link">
+                        <a class="hover-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="hover-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" crossorigin="anonymous"></script>
+<script>
+    // Smoothly scroll to the signup form section
+    function scrollToSignup() {
+        const signupForm = document.getElementById("sign-up");
+        signupForm.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Set error message for the form fields
+    function setError(field, message) {
+        // Create a span for error message if it doesn't exist
+        let errorSpan = field.nextElementSibling;
+        if (!errorSpan || !errorSpan.classList.contains('error-message')) {
+            errorSpan = document.createElement('span');
+            errorSpan.className = 'error-message';
+            field.parentNode.insertBefore(errorSpan, field.nextSibling);
+        }
+        errorSpan.textContent = message;
+        errorSpan.style.color = "#e74c3c"; // Error color
+        field.style.borderColor = "#e74c3c"; // Set border to red
+    }
+
+    // Clear error message for the form fields
+    function clearError(field) {
+        const errorSpan = field.nextElementSibling;
+        if (errorSpan && errorSpan.classList.contains('error-message')) {
+            errorSpan.textContent = ''; // Clear error message
+        }
+        field.style.borderColor = "#ddd"; // Reset border color
+    }
+
+    // Validate the form on submission
+    document.getElementById("signup-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form from submitting
+
+        // Gather input values
+        const firstName = document.getElementById("first-name").value.trim();
+        const lastName = document.getElementById("last-name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phoneNumber = document.getElementById("phone-number").value.trim();
+        const password = document.getElementById("password").value;
+
+        // Initialize validation flag
+        let isValid = true;
+
+        // Validate first name
+        if (!firstName) {
+            setError(document.getElementById("first-name"), "First name is required.");
+            isValid = false;
+        } else {
+            clearError(document.getElementById("first-name"));
+        }
+
+        // Validate last name
+        if (!lastName) {
+            setError(document.getElementById("last-name"), "Last name is required.");
+            isValid = false;
+        } else {
+            clearError(document.getElementById("last-name"));
+        }
+
+        // Validate email address
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            setError(document.getElementById("email"), "Please enter a valid email address.");
+            isValid = false;
+        } else {
+            clearError(document.getElementById("email"));
+        }
+
+        // Validate phone number
+        const phonePattern = /^\d{10}$/;
+        if (!phonePattern.test(phoneNumber)) {
+            setError(document.getElementById("phone-number"), "Please enter a valid 10-digit phone number.");
+            isValid = false;
+        } else {
+            clearError(document.getElementById("phone-number"));
+        }
+
+        // Validate password length
+        if (password.length < 8) {
+            setError(document.getElementById("password"), "Password must be at least 8 characters.");
+            isValid = false;
+        } else {
+            clearError(document.getElementById("password"));
+        }
+
+        // If the form is valid, log the data and show success message
+        if (isValid) {
+            const formData = {
+                first_name: firstName,
+                last_name: lastName,
+                email: email,
+                phone_number: phoneNumber,
+                password: password
+            };
+            console.log(formData);
+            alert("Form submitted successfully!");
+        }
+    });
+</script>
+
+
+</html>
