@@ -168,12 +168,12 @@ button.register-btn:hover {
 
 .hero{
     height: calc(95vh - 100px);
-    background:url(/images/Hero.jpg);
+    /* background:url(/images/Hero.jpg);
     
     background-position: center;
-    /* object-fit: cover; */
+    object-fit: cover;
     background-color: #a7a5a5;
-    background-blend-mode: multiply;
+    background-blend-mode: multiply; */
     
 }
 .hero-content {
@@ -347,7 +347,7 @@ h2{
 }
 
 .image-content {
-    background-image: url('/images/sean.jpg');
+    /* background-image: url('/images/sean.jpg'); */
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -448,15 +448,15 @@ h2{
     background-position: center;
     border-bottom: 1px solid rgba(95, 94, 94, 0.344);
 }
-.style-cards .card .image1{
+/* .style-cards .card .image1{
     background-image: url(/images/backlit.jpg);
-}
-.style-cards .card .image2{
+} */
+/* .style-cards .card .image2{
     background-image: url(/images/businessman.jpg);
-}
-.style-cards .card .image3{
+} */
+/* .style-cards .card .image3{
     background-image: url(/images/hands.jpg);
-}
+} */
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .style-cards {
