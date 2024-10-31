@@ -798,4 +798,8 @@ footer{
     p{
         font-size: 0.5rem;
     }
+    .line{
+        margin-inline: 5rem;
+        background-color: #3d3d3d;
+    }
 }
