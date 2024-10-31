@@ -734,10 +734,7 @@ footer{
         gap: 1rem; /* Add space between buttons */
     }
 
-    .line{
-        margin-inline: 1rem;
-        background-color: #3d3d3d;
-    }
+    
 }
 
 
@@ -798,8 +795,5 @@ footer{
     p{
         font-size: 0.5rem;
     }
-    .line{
-        margin-inline: 5rem;
-        background-color: #3d3d3d;
-    }
+    
 }
