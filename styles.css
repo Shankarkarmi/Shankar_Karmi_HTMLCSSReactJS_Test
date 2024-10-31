@@ -676,6 +676,7 @@ footer{
 
 .subfooter-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-block:3rem ;
     gap: 30px;
@@ -714,7 +715,9 @@ footer{
         height: auto; /* Allow content to flow naturally */
         gap: 20px; /* Adjust the gap between items */
     }
-
+    .subfooter-container{
+     padding: 2rem; /* Adjust padding if needed */
+    }
     .footer-links {
         flex-direction: row; /* Keep the links in a row */
         flex-wrap: wrap; /* Allow wrapping for smaller screens */
